@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="total"></p>
+    <p id="aver"></p>
+
+    <script>
+        const a = 80;
+        const b = 100;
+        const c = 90;
+
+        const total = a + b + c;
+        const aver = total / 3;
+
+        document.getElementById("total").innerHTML = "합계 = " + total;
+        document.getElementById("aver").innerHTML = "평균 = " + aver;
+    </script>
+</body>
+</html>
